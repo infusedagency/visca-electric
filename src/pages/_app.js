@@ -1,13 +1,14 @@
 import "@/styles/globals.css";
 import Header from "@/components/header";
-import { Montserrat, Source_Code_Pro } from "next/font/google";
+import { Montserrat, Source_Sans_3 } from "next/font/google";
+import Footer from "@/components/home/footer";
 
 export const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
 });
 
-export const sourceCodePro = Source_Code_Pro({
+export const sourceCodePro = Source_Sans_3({
   subsets: ["latin"],
   display: "swap",
 });
@@ -34,6 +35,7 @@ export default function App({ Component, pageProps }) {
       `}</style>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }

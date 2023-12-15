@@ -5,8 +5,8 @@ export default function Offer() {
     <div className="container">
       <div className="flex flex-col md:flex-row">
         <div className="md:flex-1">
-          <div className="border-solid border-2 border-sky-500">
-            <h2>Limited Time Offer</h2>
+          <div className="text-center border-solid border-2 border-sky-500 p-10">
+            <h2 class="text-[24px] md:text-[32px]">Limited Time Offer</h2>
           </div>
           <h2>Panel Upgrade Special</h2>
           <hr className="w-20" />
@@ -20,7 +20,7 @@ export default function Offer() {
           </p>
         </div>
         <div className="md:flex-1">
-          <img src="" alt="" />
+          <img src="" alt="offer" />
         </div>
       </div>
       <Link href="/offer">
