@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../public/img/logo.png";
 
 export default function Header() {
   return (
@@ -33,10 +35,13 @@ export default function Header() {
                     <summary>Services</summary>
                     <ul className="p-2">
                       <li>
-                        <Link href="/">Submenu 1</Link>
+                        <Link href="/residential">Residential</Link>
                       </li>
                       <li>
-                        <Link href="/">Submenu 2</Link>
+                        <Link href="/commercial">Commercial</Link>
+                      </li>
+                      <li>
+                        <Link href="/smart-homes">Smart Homes</Link>
                       </li>
                     </ul>
                   </details>
@@ -52,7 +57,9 @@ export default function Header() {
                 </li>
               </ul>
             </div>
-            <Link href="/">Logo</Link>
+            <Link href="/">
+              <Image src={logo} alt="visca electric" width="285" height="57" />
+            </Link>
           </div>
           <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
@@ -67,10 +74,13 @@ export default function Header() {
                   <summary>Services</summary>
                   <ul className="p-2">
                     <li>
-                      <Link href="/">Submenu 1</Link>
+                      <Link href="/residential">Residential</Link>
                     </li>
                     <li>
-                      <Link href="/">Submenu 2</Link>
+                      <Link href="/commercial">Commercial</Link>
+                    </li>
+                    <li>
+                      <Link href="/smart-homes">Smart Homes</Link>
                     </li>
                   </ul>
                 </details>
