@@ -22,14 +22,14 @@ export default function App({ Component, pageProps }) {
         h3,
         h4,
         h5,
-        h6 {
+        h6,
+        button {
           font-family: ${montserrat.style.fontFamily};
         }
         a,
         ul,
         ol,
-        p,
-        button {
+        p {
           font-family: ${sourceCodePro.style.fontFamily} !important;
         }
       `}</style>

@@ -1,13 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
+
+import res from "../../../public/img/residential.jpeg";
+import comm from "../../../public/img/commercial.jpeg";
+import smart from "../../../public/img/smart-homes.jpeg";
 
 export default function Services() {
   return (
     <div className="container">
-      <h1 className="mb-4">Our Services</h1>
-      <hr className="w-20" />
+      <h1 className="text-white text-lg font-thin">Our Services</h1>
+      <hr className="w-20 border-1 border-red mt-2 mb-20" />
       <div className="flex flex-col md:flex-row">
         <div className="md:flex-1">
-          <img src="" alt="residential" />
+          <Image src={res} className="w-full" alt="residential" />
         </div>
         <div className="md:flex-2">
           <h3>
@@ -22,7 +27,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="md:flex-1">
-          <img src="" alt="commercial" />
+          <Image src={comm} className="w-full" alt="commercial" />
         </div>
         <div className="md:flex-1">
           <h3>
@@ -37,7 +42,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col md:flex-row">
         <div className="md:flex-1">
-          <img src="" alt="smart homes" />
+          <Image src={smart} className="w-full" alt="smart homes" />
         </div>
         <div className="md:flex-1">
           <h3>

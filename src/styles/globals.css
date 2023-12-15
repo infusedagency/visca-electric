@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #161616;
+}
+
+.btn-custom {
+  @apply bg-red text-white text-base rounded-none border-none text-base pl-8 pr-8;
+}
+
+.btn-custom:hover {
+  @apply bg-black;
+}
