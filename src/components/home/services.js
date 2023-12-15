@@ -9,7 +9,7 @@ export default function Services() {
         <div className="md:flex-1">
           <img src="" alt="residential" />
         </div>
-        <div className="md:flex-1">
+        <div className="md:flex-2">
           <h3>
             <Link href="/residential">Residential</Link>
           </h3>
