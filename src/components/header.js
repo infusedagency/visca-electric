@@ -5,7 +5,7 @@ import logo from "../../public/img/logo.png";
 export default function Header() {
   return (
     <>
-      <div className="bg-dark-grey">
+      <div className="bg-dark-grey opacity-90 fixed top-0 w-full z-50">
         <div className="container">
           <div className="navbar">
             <div className="navbar-start">

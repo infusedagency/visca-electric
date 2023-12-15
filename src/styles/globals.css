@@ -6,10 +6,33 @@ body {
   background: #161616;
 }
 
-.btn-custom {
-  @apply bg-red text-white text-base rounded-none border-none text-base pl-8 pr-8;
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
-.btn-custom:hover {
+h1 {
+  @apply md:text-xl text-white font-thin uppercase tracking-widest;
+}
+
+h2 {
+  @apply text-white text-lg font-thin;
+}
+
+h3 {
+  @apply text-white text-3xl font-normal;
+}
+
+p {
+  @apply text-white opacity-30 text-base leading-8;
+}
+
+button {
+  @apply bg-red text-white text-base rounded-none border-none text-base pl-8 pr-8 pt-4 pb-4;
+}
+
+button:hover {
   @apply bg-black;
 }
