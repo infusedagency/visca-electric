@@ -21,6 +21,12 @@ h2 {
   @apply text-white text-lg font-thin;
 }
 
+@media screen and (max-width: 768px) {
+  h2 {
+    @apply text-h2-m;
+  }
+}
+
 h3 {
   @apply text-white text-3xl font-normal;
 }

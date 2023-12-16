@@ -5,7 +5,7 @@ import port2 from "../../../public/img/port-2.jpeg";
 
 export default function Portfolio() {
   return (
-    <div className="container text-center lg:pt-24 lg:pb-24">
+    <div className="container text-center pt-10 pb-10 lg:pt-24 lg:pb-24">
       <h2>Our Portfolio</h2>
       <hr className="mx-auto w-20 border-1 border-red mt-2" />
       <p className="lg:w-2/3 mx-auto mt-8 mb-8">
@@ -16,7 +16,7 @@ export default function Portfolio() {
         <button>View Portfolio</button>
       </Link>
       {/* Images */}
-      <div className="flex flex-col lg:flex-row mt-16 gap-10">
+      <div className="flex flex-col lg:flex-row mt-6 lg:mt-16 gap-3 lg:gap-10">
         <div className="lg:flex-1">
           <Image className="w-full" src={port1} alt="image 1" />
         </div>

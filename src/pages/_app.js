@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import Header from "@/components/header";
 import { Montserrat, Source_Sans_3 } from "next/font/google";
-import Footer from "@/components/home/footer";
+import Footer from "@/components/footer";
 
 export const montserrat = Montserrat({
   subsets: ["latin"],

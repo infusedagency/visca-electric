@@ -3,12 +3,12 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 export default function Testimonials() {
   return (
-    <section className="testimonials lg:pt-24 lg:pb-24 bg-grey">
+    <section className="testimonials pt-8 pb-8 lg:pt-24 lg:pb-24 bg-grey">
       <div className="container">
         <h2 className="mb-4 text-center">Our Happy Clients</h2>
-        <hr className="w-20 mx-auto border-1 border-red mt-2 md:mb-10" />
+        <hr className="w-20 mx-auto border-1 border-red mt-2 lg:mb-10" />
         {/* Row 1 */}
-        <div className="flex flex-col md:flex-row md:gap-10 pt-10">
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 pt-10">
           <div className="flex-1 bg-white p-10">
             <div className="flex justify-between">
               <p className="text-dark-grey opacity-100">Jim Halucha</p>
@@ -52,7 +52,7 @@ export default function Testimonials() {
           </div>
         </div>
         {/* Row 2 */}
-        <div className="flex flex-col md:flex-row pt-10 md:gap-10">
+        <div className="flex flex-col lg:flex-row pt-6 lg:pt-10 lg:gap-10">
           <div className="flex-1 bg-white p-10">
             <div className="flex justify-between">
               <p className="text-dark-grey opacity-100">Savan Chandria</p>
@@ -72,7 +72,7 @@ export default function Testimonials() {
               </em>
             </p>
           </div>
-          <div className="flex-1 bg-white p-10">
+          <div className="flex-1 bg-white p-10 mt-6 md:mt-0">
             <div className="flex justify-between">
               <p className="text-dark-grey opacity-100">Kimbel Donayre</p>
               <div className="flex">
