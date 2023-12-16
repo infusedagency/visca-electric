@@ -7,11 +7,10 @@ export default function Footer() {
             <p className="opacity-100">
               5602 George St.Niagara Falls, Ontario, L2E 3E2 | <a href="tel:905-354-0184">905-354-0184</a> |{" "}
               <a href="mailto:info@viscaelectric.ca">info@viscaelectric.ca</a>
-              <p>
-                <a href="https://infused.agency" target="_blank">
-                  Niagara Web Design by Infused Agency
-                </a>
-              </p>
+              <br />
+              <a href="https://infused.agency" target="_blank">
+                Niagara Web Design by Infused Agency
+              </a>
             </p>
           </div>
           <div className="flex flex-1 justify-normal lg:justify-end">
