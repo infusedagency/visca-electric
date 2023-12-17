@@ -23,7 +23,7 @@ export default function InnerHero({ title }) {
             initial="hidden"
             transition={{ duration: 0.5, delay: 0 }}
           >
-            <h2>{title}</h2>
+            <h1 className="text-base">{title}</h1>
             <hr className="mx-auto w-20 border-1 border-red mt-2 mb-6 lg:mb-20" />
           </motion.div>
         </div>
