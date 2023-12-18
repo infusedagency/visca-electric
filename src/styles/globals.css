@@ -56,3 +56,17 @@ button:hover {
 svg {
   @apply text-yellow;
 }
+
+:where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):not(summary):not(
+    .active
+  ):focus {
+  @apply text-red;
+}
+
+.hover\:bg-red:hover {
+  @apply !bg-transparent text-red;
+}
+
+.hover\:text-white:hover {
+  @apply !text-red;
+}
