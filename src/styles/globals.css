@@ -13,6 +13,16 @@ body {
   }
 }
 
+.inner-content {
+  @apply lg:pt-32 lg:pb-32;
+}
+
+@media screen and (max-width: 768px) {
+  .inner-content {
+    @apply pt-6 pb-6;
+  }
+}
+
 h1 {
   @apply md:text-xl text-white font-thin uppercase tracking-widest;
 }

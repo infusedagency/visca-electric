@@ -14,7 +14,7 @@ export default function InnerHero({ title }) {
   }, [isInView]);
   return (
     <>
-      <section className="inner-hero text-center pt-40 pb-20">
+      <section className="inner-hero text-center pt-24 pb-5 lg:pt-52 lg:pb-20 bg-grey">
         <div className="container">
           <motion.div
             variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

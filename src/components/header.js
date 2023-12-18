@@ -1,16 +1,37 @@
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/img/logo.png";
 
 export default function Header() {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  const handleDropdownClick = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
   return (
     <>
       <div className="bg-dark-grey opacity-90 fixed top-0 w-full z-50">
         <div className="container">
           <div className="navbar">
             <div className="navbar-start">
-              <div className="dropdown">
-                <div tabIndex={0} role="button" className="btn lg:hidden">
+              <div className="dropdown" ref={dropdownRef}>
+                <div tabIndex={0} role="button" className="btn lg:hidden" onClick={handleDropdownClick}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
@@ -32,7 +53,12 @@ export default function Header() {
                     <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <details>
+                    <details
+                      className="dropdown"
+                      onClick={(e) => {
+                        e.target.parentElement.parentElement.parentElement.removeAttribute("open");
+                      }}
+                    >
                       <summary>Services</summary>
                       <ul className="p-2">
                         <li>
@@ -75,7 +101,12 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <details>
+                  <details
+                    className="dropdown"
+                    onClick={(e) => {
+                      e.target.parentElement.parentElement.parentElement.removeAttribute("open");
+                    }}
+                  >
                     <summary>Services</summary>
                     <ul className="p-2 text-black w-56 rounded-none">
                       <li>
