@@ -41,8 +41,13 @@ h3 {
   @apply text-white text-3xl font-normal;
 }
 
-p {
+p,
+ul {
   @apply text-white opacity-30 text-base leading-8;
+}
+
+ul {
+  @apply list-disc;
 }
 
 button {
