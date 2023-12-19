@@ -43,7 +43,11 @@ h3 {
 
 p,
 ul {
-  @apply text-white opacity-30 text-base leading-8;
+  @apply text-base leading-8;
+}
+
+p {
+  @apply text-white opacity-30;
 }
 
 ul {

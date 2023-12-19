@@ -57,7 +57,7 @@ export default function Commercial() {
               </div>
               <div className="lg:w-4/12 border-solid border-2 border-red p-6">
                 <h2>What We Do:</h2>
-                <ul className="ml-5">
+                <ul className="ml-5 text-white opacity-30">
                   <li>Free Standing Commercial Buildings</li>
                   <li>High Rise</li>
                   <li>Schools/Learning Centres</li>
