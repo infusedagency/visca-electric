@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-  @apply text-white text-3xl font-normal;
+  @apply text-white text-3xl font-thin;
 }
 
 p,

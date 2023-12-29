@@ -74,6 +74,9 @@ export default function Header() {
                     </details>
                   </li>
                   <li>
+                    <Link href="/portfolio">Portfolio</Link>
+                  </li>
+                  <li>
                     <Link href="/careers">Careers</Link>
                   </li>
                   <li>
@@ -126,6 +129,11 @@ export default function Header() {
                       </li>
                     </ul>
                   </details>
+                </li>
+                <li>
+                  <Link href="/portfolio" className="hover:bg-red">
+                    Portfolio
+                  </Link>
                 </li>
                 <li>
                   <Link href="/careers" className="hover:bg-red">
