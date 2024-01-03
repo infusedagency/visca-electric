@@ -46,7 +46,7 @@ ul {
   @apply text-base leading-8;
 }
 
-p {
+p, li {
   @apply text-white opacity-30;
 }
 
