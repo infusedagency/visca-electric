@@ -19,21 +19,23 @@ export default function Header() {
   };
 
   useEffect(() => {
-    document.addEventListener("mousedown", handleClickOutside);
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+    const handleWindowClick = (e) => {
+      document.querySelectorAll(".dropdown").forEach((dropdown) => {
+        if (!dropdown.contains(e.target)) {
+          // Click was outside the dropdown, close it
+          dropdown.open = false;
+        }
+      });
     };
-  }, []);
+    // Check if running on the client-side before adding the event listener
+    if (typeof window !== "undefined") {
+      window.addEventListener("click", handleWindowClick);
 
-  window.addEventListener("click", function (e) {
-    document.querySelectorAll(".dropdown").forEach(function (dropdown) {
-      if (!dropdown.contains(e.target)) {
-        // Click was outside the dropdown, close it
-        dropdown.open = false;
-      }
-    });
-  });
+      return () => {
+        window.removeEventListener("click", handleWindowClick);
+      };
+    }
+  }, []);
 
   return (
     <>
