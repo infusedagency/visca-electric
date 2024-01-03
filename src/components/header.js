@@ -92,7 +92,7 @@ export default function Header() {
               </Link>
             </div>
             <div className="navbar-end hidden lg:flex">
-              <ul className="menu menu-horizontal px-1 text-white text-base">
+              <ul className="menu menu-horizontal px-1 text-white">
                 <li>
                   <Link href="/" className="hover:bg-red active:bg-red">
                     Home

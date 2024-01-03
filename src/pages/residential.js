@@ -74,37 +74,37 @@ export default function Residential() {
             {/* Cards */}
             {/* Row 1 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
-              <div className="flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 className="text-[24px] lg:text-[32px] font-normal">Design Build</h2>
               </div>
-              <div className="flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 className="text-[24px] lg:text-[32px] font-normal">Preventative Maintenance</h2>
               </div>
-              <div className="flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 className="text-[24px] lg:text-[32px] font-normal">Emergency Generator Systems</h2>
               </div>
             </div>
             {/* Row 2 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch items-center">
-              <div className="lg:flex lg:items-center lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Fire Alarm, Security Systems & CCTV</h2>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Custom Home Wiring</h2>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Home Network Solutions</h2>
               </div>
             </div>
             {/* Row 3 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
-              <div className="lg:flex lg:items-center lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Service & Panel Upgrades</h2>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Data, TV & Telephone</h2>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 text-center border-solid border-0 border-red p-6 lg:p-10 mb-6 lg:mb-0 sm:hidden md:block">
+              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-0 border-red p-6 lg:p-10 mb-6 lg:mb-0 sm:hidden md:block">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">&nbsp;</h2>
               </div>
             </div>
