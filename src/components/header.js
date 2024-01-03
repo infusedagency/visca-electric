@@ -9,6 +9,7 @@ export default function Header() {
 
   const handleDropdownClick = () => {
     setIsDropdownOpen(!isDropdownOpen);
+    console.log("triggered");
   };
 
   const handleClickOutside = (event) => {
@@ -24,6 +25,16 @@ export default function Header() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  window.addEventListener("click", function (e) {
+    document.querySelectorAll(".dropdown").forEach(function (dropdown) {
+      if (!dropdown.contains(e.target)) {
+        // Click was outside the dropdown, close it
+        dropdown.open = false;
+      }
+    });
+  });
+
   return (
     <>
       <div className="bg-dark-grey opacity-90 fixed top-0 w-full z-50">
@@ -60,7 +71,7 @@ export default function Header() {
                       }}
                     >
                       <summary>Services</summary>
-                      <ul className="p-2">
+                      <ul className="p-2 text-sm">
                         <li>
                           <Link href="/residential">Residential</Link>
                         </li>
@@ -91,6 +102,7 @@ export default function Header() {
                 <Image src={logo} alt="visca electric" width="285" height="57" />
               </Link>
             </div>
+            {/* Desktop */}
             <div className="navbar-end hidden lg:flex">
               <ul className="menu menu-horizontal px-1 text-white">
                 <li>

@@ -34,7 +34,7 @@ export default function Careers() {
                   Now’s your opportunity to join one of the Niagara Region’s most reputable electrical contracting
                   companies!
                 </p>
-                <h3>Licensed Electricians and Apprentices of All Levels</h3>
+                <h3 className="mt-5">Licensed Electricians and Apprentices of All Levels</h3>
                 <p>
                   Sam Visca Electric is looking for energetic, motivated individuals, with a good work ethic and someone
                   who works well in a team-oriented environment.
@@ -44,8 +44,8 @@ export default function Careers() {
                   residential, and industrial sectors.
                 </p>
                 <p>FULL TIME positions are available immediately with excellent wages and benefits.</p>
-                <h3>Requirements:</h3>
-                <ul className="ml-5">
+                <h3 className="mt-5">Requirements:</h3>
+                <ul className="ml-5 text-white opacity-30">
                   <li>Must be able to read and interpret electrical drawings</li>
                   <li>Skilled at troubleshooting</li>
                   <li>Hold all required safety certificates</li>
@@ -54,7 +54,7 @@ export default function Careers() {
                   <li>A desire for continuous improvement</li>
                   <li>Willing to travel if necessary</li>
                 </ul>
-                <p>
+                <p className="mt-5">
                   Please fax or email resume to: <strong>905-354-6051</strong> or{" "}
                   <a href="mailto:samviscaelectric@hotmail.com">samviscaelectric@hotmail.com</a>
                 </p>

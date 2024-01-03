@@ -74,45 +74,45 @@ export default function SmartHomes() {
             {/* Cards */}
             {/* Row 1 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Lighting Control</h2>
                 <p>Controlled lightning with scheduling options</p>
               </div>
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Multi-Room Audio</h2>
                 <p>Listen to your favourite music in all rooms of the house, at the same time</p>
               </div>
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Intercom &amp; Video Door Entry</h2>
                 <p>See who is at your door at any time with a video door entry</p>
               </div>
             </div>
             {/* Row 2 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Security</h2>
                 <p>Whether your at home or on the go, know your home is safe and secure</p>
               </div>
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Thermostat Control</h2>
                 <p>Schedule your thermostat and never have to touch it again.</p>
               </div>
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Digital Door Locks</h2>
                 <p>Keyless door entry systems that can be controlled by the Intuity system.</p>
               </div>
             </div>
             {/* Row 3 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">IP Cameras</h2>
                 <p>Giving you peace of mind knowing your house is always being monitored.</p>
               </div>
-              <div className="lg:flex-1 text-center border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">Garage Door Control</h2>
                 <p>Open your garage door with the Intuity system</p>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 text-center border-solid border-0 border-red p-6 lg:p-10 mb-6 lg:mb-0 sm:hidden md:block">
+              <div className="lg:flex lg:items-center lg:flex-1  border-solid border-0 border-red p-6 lg:p-10 mb-6 lg:mb-0 sm:hidden md:block">
                 <h2 class="text-[24px] lg:text-[32px] font-normal">&nbsp;</h2>
               </div>
             </div>
