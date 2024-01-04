@@ -34,19 +34,18 @@ export default function SmartHomes() {
                 <h2>A Smart System to Automate Your Home</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
                 <p>
-                  High performing products and systems that unite your home allowing you to control everything in your
-                  home.
-                  <br />
-                  <br />
-                  Unify and control your home’s entertainment, security and comfort systems with automated products.
-                  Controlled lightning, window shades, thermostat, door locks and more to simplify your life.
+                  Transform your home into a smart haven with VISCA electric’s Smart Home Services, where innovation
+                  meets expertise. Discover the future of living today. We offer a comprehensive suite of smart home
+                  solutions including lighting controls, Wi-Fi/networking, multiroom audio, home theatres, security
+                  systems, and more. We understand that every home is unique. Our team will work closely with you to
+                  plan, and design customized smart home solutions tailored to your lifestyle and preferences.
                 </p>
               </div>
               <div className="lg:flex-1">
                 <Image className="mt-5 lg:mt-0 mb-5 lg:mb-0" src={aboutImg} alt="smart homes" />
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row lg:gap-10 items-center lg:pt-20 lg:pb-20">
+            {/* <div className="flex flex-col lg:flex-row lg:gap-10 items-center lg:pt-20 lg:pb-20">
               <div className="lg:flex-1">
                 <h2>Easy-to-Use Interface to Control Your Home</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
@@ -70,50 +69,56 @@ export default function SmartHomes() {
               <div className="lg:flex-1">
                 <Image className="mt-5 lg:mt-0 mb-5 lg:mb-0" src={aboutImgTwo} alt="smart homes 2" />
               </div>
-            </div>
+            </div> */}
             {/* Cards */}
             {/* Row 1 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
               <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Lighting Control</h2>
-                <p>Controlled lightning with scheduling options</p>
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Voice and Remote Control</h2>
+                <p>
+                  Enjoy the convenience of controlling your home with just your voice or remotely through a mobile app.
+                  We specialize in integrating voice-activated assistants and user-friendly interfaces.{" "}
+                </p>
               </div>
               <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Multi-Room Audio</h2>
-                <p>Listen to your favourite music in all rooms of the house, at the same time</p>
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Wi-Fi and Networking Systems</h2>
+                <p>
+                  Experience seamless Wi-Fi connectivity with our robust and reliable network solutions. Stream, game,
+                  and work without interruptions.{" "}
+                </p>
               </div>
               <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Intercom &amp; Video Door Entry</h2>
-                <p>See who is at your door at any time with a video door entry</p>
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Multi-room Audio</h2>
+                <p>
+                  Enjoy rich sounding audio in your living room, energizing beats in the kitchen, and soothing melodies
+                  in your bedroom – simultaneously and effortlessly.{" "}
+                </p>
               </div>
             </div>
             {/* Row 2 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
               <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Security</h2>
-                <p>Whether your at home or on the go, know your home is safe and secure</p>
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Home Theatres</h2>
+                <p>
+                  Treat yourself with stunning visuals and sound from state-of-the-art projectors, high-definition
+                  screens, and audio systems. Every detail, every frame, captured with unparalleled clarity. Our audio
+                  systems transport you into the heart of the action, delivering spine-tingling, theater-quality sound.{" "}
+                </p>
               </div>
               <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Thermostat Control</h2>
-                <p>Schedule your thermostat and never have to touch it again.</p>
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Security Systems and Alarm.com</h2>
+                <p>
+                  Implement state-of-the-art security systems, including smart cameras, doorbell cameras, and automated
+                  locks, to keep your home safe and secure. Get alarms, motion detection, and other notifications sent
+                  right to your phone with the alarm.com app.{" "}
+                </p>
               </div>
               <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Digital Door Locks</h2>
-                <p>Keyless door entry systems that can be controlled by the Intuity system.</p>
-              </div>
-            </div>
-            {/* Row 3 */}
-            <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
-              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">IP Cameras</h2>
-                <p>Giving you peace of mind knowing your house is always being monitored.</p>
-              </div>
-              <div className="lg:flex-1  border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Garage Door Control</h2>
-                <p>Open your garage door with the Intuity system</p>
-              </div>
-              <div className="lg:flex lg:items-center lg:flex-1  border-solid border-0 border-red p-6 lg:p-10 mb-6 lg:mb-0 sm:hidden md:block">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">&nbsp;</h2>
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Customer Education and Support</h2>
+                <p>
+                  We believe in empowering our clients. Our team provides thorough education on smart home systems and
+                  offers ongoing support to ensure a smooth experience.{" "}
+                </p>
               </div>
             </div>
           </div>
