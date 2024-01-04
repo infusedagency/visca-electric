@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
@@ -56,6 +57,9 @@ export default function Services() {
                 comprehensive range of electrical services. With a focus on quality, reliability, and customer service,
                 we strive to enhance the electrical systems of homes to meet the evolving needs of modern living. 
               </p>
+              <Link href="/residential">
+                <button className="mt-2 lg:mt-5">View Residential</button>
+              </Link>
             </motion.div>
           </div>
         </div>
@@ -85,6 +89,9 @@ export default function Services() {
                 comprehensive range of electrical services. With a focus on quality, reliability, and customer service,
                 we strive to enhance the electrical systems of homes to meet the evolving needs of modern living. 
               </p>
+              <Link href="/commercial">
+                <button className="mt-2 lg:mt-5">View Commercial</button>
+              </Link>
             </motion.div>
           </div>
         </div>
@@ -114,6 +121,9 @@ export default function Services() {
                 comprehensive range of electrical services. With a focus on quality, reliability, and customer service,
                 we strive to enhance the electrical systems of homes to meet the evolving needs of modern living. 
               </p>
+              <Link href="/smart-homes">
+                <button className="mt-2 lg:mt-5">View Smart Homes</button>
+              </Link>
             </motion.div>
           </div>
         </div>

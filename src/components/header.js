@@ -1,4 +1,6 @@
 import { useEffect, useState, useRef } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/img/logo.png";
@@ -98,10 +100,13 @@ export default function Header() {
                   <li>
                     <Link href="/contact">Contact</Link>
                   </li>
+                  <li>
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </li>
                 </ul>
               </div>
               <Link href="/">
-                <Image src={logo} alt="visca electric" width="285" height="57" />
+                <Image className="logo" src={logo} alt="visca electric" width="285" height="57" />
               </Link>
             </div>
             {/* Desktop */}
@@ -162,6 +167,11 @@ export default function Header() {
                 <li>
                   <Link href="/contact" className="hover:bg-red">
                     Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.instagram.com/viscaelectric/" target="_blank" className="hover:bg-red">
+                    <FontAwesomeIcon className="insta" icon={faInstagram} />
                   </Link>
                 </li>
               </ul>

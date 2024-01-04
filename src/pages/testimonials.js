@@ -49,10 +49,10 @@ export default function Testimonials() {
                   </div>
                   <p className="text-grey opacity-50">
                     <em>
-                      “I've been working with Visca Electric for almost 20 years and have used them both personally and
+                      I've been working with Visca Electric for almost 20 years and have used them both personally and
                       professionally. They are knowledgeable, professional and very well organized. They've done small
                       electrical maintenance items at our office to full scale electrical installations on townhouse
-                      developments for us. From big jobs to small, they really can do it all!”
+                      developments for us. From big jobs to small, they really can do it all!
                     </em>
                   </p>
                 </div>

@@ -11,6 +11,12 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .logo {
+    width: 247px;
+  }
+  .navbar-start {
+    width: inherit;
+  }
 }
 
 .inner-content {
@@ -71,6 +77,14 @@ svg {
   @apply text-yellow;
 }
 
+.insta {
+  @apply text-white;
+}
+
+.insta:hover {
+  @apply text-red;
+}
+
 :where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):not(summary):not(
     .active
   ):focus {
@@ -83,4 +97,14 @@ svg {
 
 .hover\:text-white:hover {
   @apply !text-red;
+}
+
+.menu li {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1536px) {
+  .menu li {
+    font-size: 13px;
+  }
 }

@@ -23,7 +23,8 @@ export default function App({ Component, pageProps }) {
         h4,
         h5,
         h6,
-        button {
+        button,
+        span {
           font-family: ${montserrat.style.fontFamily};
         }
         a,

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
@@ -48,7 +47,7 @@ export default function Offer() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <p>
-              100A fuse to breaker upgrade $1,050.00 + HST.
+              <span className="text-2xl !text-white !opacity-100">100A fuse to breaker upgrade $1,050.00 + HST.</span>
               <br />
               <br />
               VISCA electric is your trusted electrical contractor for this essential upgrade. Our experienced
@@ -56,9 +55,6 @@ export default function Offer() {
               deliver our services on time and as quoted. You can rely on us to communicate the panel upgrade process
               every step of the way.  
             </p>
-            <Link href="/offer">
-              <button className="mt-6 mb-6 lg:mt-10 lg:mb-0">View Offer</button>
-            </Link>
           </motion.div>
         </div>
         <div className="lg:flex-1">
@@ -69,7 +65,7 @@ export default function Offer() {
             initial="hidden"
             transition={{ duration: 0.5, delay: 0 }}
           >
-            <Image className="w-full" src={offer} alt="offer" />
+            <Image className="w-full mt-5 lg:mt-0" src={offer} alt="offer" />
           </motion.div>
         </div>
       </div>
