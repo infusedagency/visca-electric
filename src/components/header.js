@@ -43,13 +43,18 @@ export default function Header() {
     <>
       <div className="bg-dark-grey opacity-90 fixed top-0 w-full z-50">
         <div className="container">
-          <div className="navbar">
+          <div className="navbar p-0 lg:p-2">
             <div className="navbar-start">
               <div className="dropdown" ref={dropdownRef}>
-                <div tabIndex={0} role="button" className="btn lg:hidden" onClick={handleDropdownClick}>
+                <div
+                  tabIndex={0}
+                  role="button"
+                  className="btn lg:hidden bg-transparent rounded-none"
+                  onClick={handleDropdownClick}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
+                    className="h-5 w-5 ham"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

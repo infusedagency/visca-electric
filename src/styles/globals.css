@@ -77,8 +77,18 @@ svg {
   @apply text-yellow;
 }
 
+.ham {
+  @apply text-red;
+}
+
 .insta {
   @apply text-white;
+}
+
+@media screen and (max-width: 1024px) {
+  .fa-instagram {
+    margin-right: 154px !important;
+  }
 }
 
 .insta:hover {
