@@ -3,7 +3,7 @@ import ContactSidebar from "@/components/contact-sidebar";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
-export default function ContactUs() {
+export default function RequestAQuote() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -16,7 +16,7 @@ export default function ContactUs() {
   }, [isInView]);
   return (
     <>
-      <InnerHero title="Contact Us" />
+      <InnerHero title="Request A Quote" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
         ref={ref}
@@ -28,9 +28,12 @@ export default function ContactUs() {
           <div className="container">
             <div className="flex flex-col lg:flex-row lg:gap-10">
               <div className="lg:w-2/3">
-                <h2>Questions, concerns or comments?</h2>
+                <h2>Get A Quote For Your Work</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
-                <p>Feel free to contact us regarding any question or comment you have.</p>
+                <p>
+                  Use the form below to request a quote on the work you need done. Commercial, residential, industrial
+                  and home automation we can give you a proper budget and timeline for your project.
+                </p>
                 <form target="_blank" action="https://formsubmit.co/jd@infused.agency" method="POST">
                   <div className="form-group">
                     <div className="form-row">
@@ -60,11 +63,20 @@ export default function ContactUs() {
                       name="phone"
                       className="form-control input w-full mt-2 rounded-none"
                       placeholder="Phone Number"
+                      required
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      name="company"
+                      className="form-control input w-full mt-2 rounded-none"
+                      placeholder="Company Name"
                     />
                   </div>
                   <div className="form-group">
                     <textarea
-                      placeholder="Your Message"
+                      placeholder="Description of Work"
                       className="form-control input w-full mt-2 rounded-none pt-2 h-48"
                       name="message"
                       rows="10"

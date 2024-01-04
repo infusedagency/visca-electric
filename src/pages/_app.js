@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
         h5,
         h6,
         button,
-        span, input, textarea {
+        span, input, textarea, select {
           font-family: ${montserrat.style.fontFamily};
         }
         a,

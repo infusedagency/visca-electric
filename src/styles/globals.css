@@ -89,6 +89,9 @@ svg {
   .fa-instagram {
     margin-right: 154px !important;
   }
+  .insta {
+    @apply text-red;
+  }
 }
 
 .insta:hover {

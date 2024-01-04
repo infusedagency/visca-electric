@@ -22,6 +22,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleWindowClick = (e) => {
+      handleClickOutside(e);
       document.querySelectorAll(".dropdown").forEach((dropdown) => {
         if (!dropdown.contains(e.target)) {
           // Click was outside the dropdown, close it
@@ -115,7 +116,7 @@ export default function Header() {
                           <Link href="/contact">Contact Us</Link>
                         </li>
                         <li>
-                          <Link href="/request-quote">Request A Quote</Link>
+                          <Link href="/request-a-quote">Request A Quote</Link>
                         </li>
                         <li>
                           <Link href="/request-service-call">Request Service Call</Link>
@@ -124,8 +125,10 @@ export default function Header() {
                     </details>
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </li>
+                  <Link href="https://www.instagram.com/viscaelectric/" target="_blank" className="hover:bg-red">
+                    <FontAwesomeIcon className="insta" icon={faInstagram} />
+                  </Link>
+                </li>
                 </ul>
               </div>
               <Link href="/">
