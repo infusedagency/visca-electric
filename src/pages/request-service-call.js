@@ -31,7 +31,7 @@ export default function RequestServiceCall() {
                 <h2>Service</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
                 <p>Use the form below to request a service call.</p>
-                <form target="_blank" action="https://formsubmit.co/jd@infused.agency" method="POST">
+                <form target="_blank" action="https://formsubmit.co/info@viscaelectric.ca" method="POST">
                   <div className="form-group">
                     <div className="form-row">
                       <div className="col">

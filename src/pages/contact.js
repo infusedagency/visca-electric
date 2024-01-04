@@ -31,7 +31,7 @@ export default function ContactUs() {
                 <h2>Questions, concerns or comments?</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
                 <p>Feel free to contact us regarding any question or comment you have.</p>
-                <form target="_blank" action="https://formsubmit.co/jd@infused.agency" method="POST">
+                <form target="_blank" action="https://formsubmit.co/info@viscaelectric.ca" method="POST">
                   <div className="form-group">
                     <div className="form-row">
                       <div className="col">

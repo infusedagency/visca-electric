@@ -34,7 +34,7 @@ export default function RequestAQuote() {
                   Use the form below to request a quote on the work you need done. Commercial, residential, industrial
                   and home automation we can give you a proper budget and timeline for your project.
                 </p>
-                <form target="_blank" action="https://formsubmit.co/jd@infused.agency" method="POST">
+                <form target="_blank" action="https://formsubmit.co/info@viscaelectric.ca" method="POST">
                   <div className="form-group">
                     <div className="form-row">
                       <div className="col">
