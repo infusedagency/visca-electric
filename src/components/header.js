@@ -103,7 +103,25 @@ export default function Header() {
                     <Link href="/testimonials">Testimonials</Link>
                   </li>
                   <li>
-                    <Link href="/contact">Contact</Link>
+                    <details
+                      className="dropdown"
+                      onClick={(e) => {
+                        e.target.parentElement.parentElement.parentElement.removeAttribute("open");
+                      }}
+                    >
+                      <summary>Contact</summary>
+                      <ul className="p-2 text-sm">
+                        <li>
+                          <Link href="/contact">Contact Us</Link>
+                        </li>
+                        <li>
+                          <Link href="/request-quote">Request A Quote</Link>
+                        </li>
+                        <li>
+                          <Link href="/request-service-call">Request Service Call</Link>
+                        </li>
+                      </ul>
+                    </details>
                   </li>
                   <li>
                     <FontAwesomeIcon icon={faInstagram} />
@@ -170,9 +188,31 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className="hover:bg-red">
-                    Contact
-                  </Link>
+                  <details
+                    className="dropdown"
+                    onClick={(e) => {
+                      e.target.parentElement.parentElement.parentElement.removeAttribute("open");
+                    }}
+                  >
+                    <summary>Contact</summary>
+                    <ul className="p-2 text-black w-56 rounded-none">
+                      <li>
+                        <Link href="/contact" className="hover:bg-red hover:text-white rounded-none">
+                          Contact Us
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/request-a-quote" className="hover:bg-red hover:text-white rounded-none">
+                          Request A Quote
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/request-service-call" className="hover:bg-red hover:text-white rounded-none">
+                          Request Service Call
+                        </Link>
+                      </li>
+                    </ul>
+                  </details>
                 </li>
                 <li>
                   <Link href="https://www.instagram.com/viscaelectric/" target="_blank" className="hover:bg-red">
