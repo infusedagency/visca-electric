@@ -47,6 +47,12 @@ h3 {
   @apply text-white text-3xl font-thin;
 }
 
+@media screen and (max-width: 768px) {
+  h3 {
+    @apply text-h2-m;
+  }
+}
+
 .inner-content a,
 footer a {
   @apply text-white opacity-100 underline !important;
@@ -59,6 +65,14 @@ ul {
 
 p {
   @apply text-white opacity-30;
+}
+
+.inner-content ul {
+  @apply text-white opacity-30 ml-5;
+}
+
+.inner-content strong {
+  @apply text-white;
 }
 
 ul {

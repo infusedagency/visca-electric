@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import offer from "../../../public/img/offer.jpeg";
@@ -55,6 +56,9 @@ export default function Offer() {
               deliver our services on time and as quoted. You can rely on us to communicate the panel upgrade process
               every step of the way.  
             </p>
+            <Link href="/offer">
+              <button className="mt-6">View Offer</button>
+            </Link>
           </motion.div>
         </div>
         <div className="lg:flex-1">

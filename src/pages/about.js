@@ -4,7 +4,7 @@ import aboutImg from "../../public/img/about.jpeg";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
-export default function About() {
+export default function Offer() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 

@@ -28,73 +28,88 @@ export default function Commercial() {
         <section className="inner-content">
           <div className="container">
             <div className="flex flex-col lg:flex-row lg:gap-10 items-center">
-              <div className="lg:w-7/12">
-                <h2>Experienced Full Service Contractor</h2>
-                <hr className="w-20 border-1 border-red mt-2 mb-6" />
+              <div className="lg:flex-1">
                 <p>
-                  Sam Visca Electric offers specialized services and products for commercial electrical projects. No
-                  commercial project is too big or too small for us. We can handle any task at any point of a project or
-                  fix any problem you have been experiencing.
-                  <br />
-                  <br />
-                  Rest assured our team approaches every project with the same care and technical expertise to make sure
-                  everything is up to industry standards. Our knowledge is up to date and field experienced ready for
-                  any situation.
+                  VISCA electric is a leading provider of commercial electrical services, dedicated to powering
+                  businesses with reliable, efficient, and innovative solutions.
                 </p>
               </div>
-              <div className="lg:w-4/12">
+              <div className="lg:flex-1">
                 <Image className="mt-5 lg:mt-0 mb-5 lg:mb-0" src={aboutImg} alt="Commercial" />
-              </div>
-            </div>
-            <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-20 lg:pb-20">
-              <div className="lg:w-7/12">
-                <h2>We have the experience with sophisticated systems that you need.</h2>
-                <hr className="w-20 border-1 border-red mt-2 mb-6" />
-                <p>
-                  With over 20 years of experience our team has the knowledge and skills for any commercial project.
-                  Check out some of our previous work for community centres, schools and more.
-                </p>
-              </div>
-              <div className="lg:w-4/12 border-solid border-2 border-red p-6">
-                <h3>What We Do:</h3>
-                <ul className="ml-5 text-white opacity-30">
-                  <li>Free Standing Commercial Buildings</li>
-                  <li>High Rise</li>
-                  <li>Schools/Learning Centres</li>
-                  <li>Shopping Centres</li>
-                  <li>Restaurants</li>
-                </ul>
               </div>
             </div>
             {/* Cards */}
             {/* Row 1 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-20 justify-items-stretch">
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mt-6 lg:mt-0 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Design Build</h2>
+              <div className="lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Licensed Professionals</h2>
+                <p>
+                  Our seasoned team of licensed electricians, apprentices, and project managers are well-versed in the
+                  latest industry standards, providing peace of mind for our commercial clients.
+                </p>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Preventative Maintenance</h2>
+              <div className="lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Safety and Compliance</h2>
+                <p>
+                  Prioritizing safety and compliance, we ensure that all our commercial projects adhere to local
+                  regulations and industry safety standards.
+                </p>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Commercial Lighting</h2>
-              </div>
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Emergency Generator Systems</h2>
+              <div className="lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Electrical Services for Varied Industries</h2>
+                <p>
+                  Whether it's retail, healthcare, hospitality, industrial or manufacturing, we provide electrical
+                  services tailored to the specific needs of diverse commercial sectors.
+                </p>
               </div>
             </div>
             {/* Row 2 */}
             <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 justify-items-stretch">
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Fire Alarm, Security Systems & CCTV</h2>
+              <div className="lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Fire Alarm Services</h2>
+                <p>
+                  Our team is trained and equipped to install, service, and retrofit fire alarm systems to meet the
+                  latest rules and regulations in all buildings.
+                </p>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Card Access</h2>
+              <div className="lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+                <h2 class="text-[24px] lg:text-[32px] font-normal">Timely Project Completion</h2>
+                <p>
+                  We understand the importance of timelines in commercial projects. Our team is dedicated to completing
+                  projects on schedule, minimizing downtime for businesses.
+                </p>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Power Distribution</h2>
+              <div className="lg:flex-1 p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0 hidden lg:block">
+                <h2 class="text-[24px] lg:text-[32px] font-normal">&nbsp;</h2>
               </div>
-              <div className="lg:flex lg:items-center lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
-                <h2 class="text-[24px] lg:text-[32px] font-normal">Data, TV & Telephone</h2>
+            </div>
+            <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 mt-2 lg:mt-5 justify-items-stretch">
+              <div className="lg:flex-1">
+                <h2>24/7 Emergency Services and Repairs</h2>
+                <hr className="w-20 border-1 border-red mt-2 mb-6" />
+                <p>
+                  Electrical emergencies never wait, neither do we. No matter when, we will be there to serve you.
+                  Electrical issues can strike at any time, day, or night. When you're in the dark or facing a
+                  potentially dangerous electrical problem, you need a reliable electrician that you can count on.
+                </p>
+              </div>
+              <div className="lg:flex-1 mt-5 lg:mt-0">
+                <h3>Why Choose Our 24/7 Emergency Service:</h3>
+                <ul>
+                  <li>
+                    <strong>Rapid Response:</strong> We understand the urgency of electrical problems and will do our
+                    best to keep your home or business running smoothly. We will typically be able to get on site within
+                    1 to 3 hours for emergencies within the Niagara Region.
+                  </li>
+                  <li>
+                    <strong>Round-the-Clock Availability:</strong> We're here 24/7, 365 days a year, to respond to your
+                    electrical emergencies promptly.
+                  </li>
+                  <li>
+                    <strong>Experienced Emergency Team:</strong> Our skilled electricians are trained to handle a wide
+                    range of electrical issues. You can rely on us to keep your home or business up and running.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
