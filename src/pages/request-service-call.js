@@ -96,11 +96,11 @@ export default function RequestServiceCall() {
                 </form>
               </div>
               <div className="lg:w-1/3">
-                <div className="border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0">
+                <div className="border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0 mt-2 lg:mt-0">
                   <h2 class="text-[24px] lg:text-[32px]">24-7 Emergency Support</h2>
                   <p>
                     If you need emergency support,
-                    <br/>
+                    <br />
                     please call <a href="tel:905-354-0184">905-354-0184</a>
                   </p>
                 </div>

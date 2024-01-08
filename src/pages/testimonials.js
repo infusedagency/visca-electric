@@ -35,7 +35,7 @@ export default function Testimonials() {
               initial="hidden"
               transition={{ duration: 0.5, delay: 0.3 }}
             >
-              <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 pt-10">
+              <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 pt-4 lg:pt-10">
                 <div className="flex-1 bg-white p-10">
                   <div className="flex justify-between">
                     <p className="text-dark-grey opacity-100">Jim Halucha</p>

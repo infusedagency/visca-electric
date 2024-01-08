@@ -95,6 +95,7 @@ export default function Commercial() {
               </div>
               <div className="lg:flex-1 mt-5 lg:mt-0">
                 <h3>Why Choose Our 24/7 Emergency Service:</h3>
+                <hr className="w-20 border-1 border-red mt-2 mb-6" />
                 <ul>
                   <li>
                     <strong>Rapid Response:</strong> We understand the urgency of electrical problems and will do our

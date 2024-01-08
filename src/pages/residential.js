@@ -47,7 +47,7 @@ export default function Residential() {
               </div>
             </div>
             <div className="flex flex-col lg:flex-row lg:gap-10 items-center lg:pt-20">
-              <div className="lg:flex-1">
+              <div className="lg:flex-1 mt-2 lg:mt-0">
                 <h2>Customer-Centric Approach</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
                 <p>
