@@ -40,7 +40,7 @@ export default function Hero() {
           animate="visible"
           transition={{ duration: 0.5, delay: 0.6 }}
         >
-          <Link href="/contact">
+          <Link href="/request-a-quote">
             <button className="mt-6">Get A Quote</button>
           </Link>
         </motion.div>
