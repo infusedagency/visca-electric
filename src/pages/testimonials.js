@@ -130,6 +130,109 @@ export default function Testimonials() {
                 </div>
               </div>
             </motion.div>
+            {/* Row 3 */}
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
+              ref={ref}
+              animate={mainControls}
+              initial="hidden"
+              transition={{ duration: 0.5, delay: 0.3 }}
+            >
+              <div className="flex flex-col lg:flex-row pt-6 lg:pt-10 lg:gap-10">
+                <div className="flex-1 bg-white p-10">
+                  <div className="flex justify-between">
+                    <p className="text-dark-grey opacity-100">David Dangelo</p>
+                    <div className="flex">
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </div>
+                  <p className="text-grey opacity-50">
+                    <em>
+                      I have used VISCA electric for many electrical jobs over the years both residential and
+                      commercial. Through all of these jobs, I have only ever had a great experience with VISCA
+                      electric. The electricians are always professional, reliable and get the job done. The office
+                      staff is also always friendly and very knowledgable. Thank you for all the hardwork and look
+                      forward to seeing the team on the next job. Highly recommended!
+                    </em>
+                  </p>
+                </div>
+                <div className="flex-1 bg-white p-10 mt-6 md:mt-0">
+                  <div className="flex justify-between">
+                    <p className="text-dark-grey opacity-100">Blythwood Homes</p>
+                    <div className="flex">
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </div>
+                  <p className="text-grey opacity-50">
+                    <em>
+                      Visca Electric has been an invaluable partner to Blythwood Homes for over 20 years, and their
+                      service continues to exceed expectations. The crews at Visca Electric are not only skilled but
+                      also personable, making collaboration a pleasure. Their unwavering commitment to quality and
+                      attention to detail shine through in every project, showcasing unmatched craftsmanship. I highly
+                      recommend Visca Electric for their reliability, professionalism, and the consistently exceptional
+                      results they deliver. A solid 5-star rating for a two-decade legacy of excellence!
+                    </em>
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+            {/* Row 4 */}
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
+              ref={ref}
+              animate={mainControls}
+              initial="hidden"
+              transition={{ duration: 0.5, delay: 0.3 }}
+            >
+              <div className="flex flex-col lg:flex-row pt-6 lg:pt-10 lg:gap-10">
+                <div className="flex-1 bg-white p-10">
+                  <div className="flex justify-between">
+                    <p className="text-dark-grey opacity-100">Stu McLean</p>
+                    <div className="flex">
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </div>
+                  <p className="text-grey opacity-50">
+                    <em>
+                      Had a good experience with this company upgrading my fuse box to a new breaker panel with a surge
+                      protector. Price was very fair, and the work was done on-schedule and with zero problems. Oscar,
+                      the electrician, did a good job and was a real nice guy who answered all my questions.
+                    </em>
+                  </p>
+                </div>
+                <div className="flex-1 bg-white p-10 mt-6 md:mt-0">
+                  <div className="flex justify-between">
+                    <p className="text-dark-grey opacity-100">Dawn Rozell</p>
+                    <div className="flex">
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} />
+                    </div>
+                  </div>
+                  <p className="text-grey opacity-50">
+                    <em>
+                      Chris and George from Sam Visca Electric did a fantastic job at upgrading my electrical panel and
+                      installing a recepticle outside. I highly recommend Sam Visca Electric for all your electrical
+                      needs. Great job, thank you!
+                    </em>
+                  </p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </section>
       </motion.div>

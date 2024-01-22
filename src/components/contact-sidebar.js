@@ -5,7 +5,7 @@ export default function ContactSidebar() {
     <>
       <h3 className="mt-5 lg:mt-0">Location & Contact Info</h3>
       <p>
-        5602 George St.
+        5602 George St., Unit 4
         <br />
         Niagara Falls, Ontario
         <br />
@@ -27,7 +27,9 @@ export default function ContactSidebar() {
       ></iframe>
       <h3 className="mt-5">Hours</h3>
       <p>
-        <strong>Monday–Friday:</strong> 7:00am – 4:00pm
+        <strong>Monday–Thursday:</strong> 7:00am – 4:00pm
+        <br />
+        <strong>Friday:</strong> 7:00am – 3:00pm
         <br />
         <strong>Saturday:</strong> Closed
         <br />

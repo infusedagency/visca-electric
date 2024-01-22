@@ -53,9 +53,8 @@ export default function Services() {
             >
               <h3 className="mt-4 md:mt-0">Residential</h3>
               <p>
-                Since our establishment in 1991, VISCA electric has been a trusted partner for homeowners, offering a
-                comprehensive range of electrical services. With a focus on quality, reliability, and customer service,
-                we strive to enhance the electrical systems of homes to meet the evolving needs of modern living. 
+                Since our establishment in 1991, VISCA Electric has been a trusted partner for homeowners, offering a
+                comprehensive range of electrical services.
               </p>
               <Link href="/residential">
                 <button className="mt-2 lg:mt-5">View Residential</button>
@@ -85,9 +84,8 @@ export default function Services() {
             >
               <h3 className="mt-4 md:mt-0">Commercial</h3>
               <p>
-                Since our establishment in 1991, VISCA electric has been a trusted partner for homeowners, offering a
-                comprehensive range of electrical services. With a focus on quality, reliability, and customer service,
-                we strive to enhance the electrical systems of homes to meet the evolving needs of modern living. 
+                VISCA Electric is a leading provider of commercial electrical services, dedicated to powering businesses
+                with reliable, efficient, and innovative solutions.
               </p>
               <Link href="/commercial">
                 <button className="mt-2 lg:mt-5">View Commercial</button>
@@ -117,9 +115,8 @@ export default function Services() {
             >
               <h3 className="mt-4 md:mt-0">Smart Homes</h3>
               <p>
-                Since our establishment in 1991, VISCA electric has been a trusted partner for homeowners, offering a
-                comprehensive range of electrical services. With a focus on quality, reliability, and customer service,
-                we strive to enhance the electrical systems of homes to meet the evolving needs of modern living. 
+                Transform your home into a smart haven with VISCA Electric’s Smart Home Services, where innovation meets
+                expertise. Discover the future of living today.
               </p>
               <Link href="/smart-homes">
                 <button className="mt-2 lg:mt-5">View Smart Homes</button>

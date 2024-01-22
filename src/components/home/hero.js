@@ -1,6 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
+import heroLogo from "../../../public/img/hero-logo.png";
 
 export default function Hero() {
   const ref = useRef(null);
@@ -22,7 +24,7 @@ export default function Hero() {
           animate="visible"
           transition={{ duration: 0.5, delay: 0 }}
         >
-          <h1>Visca Electric</h1>
+          <Image className="m-auto w-1/2" src={heroLogo} alt="visca electric hero" />
         </motion.div>
         <motion.div
           variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

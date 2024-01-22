@@ -6,6 +6,10 @@ body {
   background: #161616;
 }
 
+span {
+  @apply text-red;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     padding-left: 15px;
@@ -15,8 +19,22 @@ body {
     width: 247px;
   }
   .navbar-start {
-    width: inherit;
+    width: inherit !important;
   }
+}
+
+/* Nav */
+
+.navbar-start {
+  width: 25%;
+}
+
+.navbar-end {
+  width: 75%;
+}
+
+.navbar li {
+  font-size: 18px !important;
 }
 
 .inner-content {

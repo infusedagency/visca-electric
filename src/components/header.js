@@ -125,10 +125,10 @@ export default function Header() {
                     </details>
                   </li>
                   <li>
-                  <Link href="https://www.instagram.com/viscaelectric/" target="_blank" className="hover:bg-red">
-                    <FontAwesomeIcon className="insta" icon={faInstagram} />
-                  </Link>
-                </li>
+                    <Link href="https://www.instagram.com/viscaelectric/" target="_blank" className="hover:bg-red">
+                      <FontAwesomeIcon className="insta" icon={faInstagram} />
+                    </Link>
+                  </li>
                 </ul>
               </div>
               <Link href="/">
@@ -156,7 +156,7 @@ export default function Header() {
                     }}
                   >
                     <summary>Services</summary>
-                    <ul className="p-2 text-black w-56 rounded-none">
+                    <ul className="p-2 text-white w-56 rounded-none bg-black">
                       <li>
                         <Link href="/residential" className="hover:bg-red hover:text-white rounded-none">
                           Residential

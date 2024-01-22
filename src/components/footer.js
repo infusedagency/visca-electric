@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row">
           <div className="flex-1">
             <p className="opacity-100">
-              5602 George St.Niagara Falls, Ontario, L2E 3E2 | <a href="tel:905-354-0184">905-354-0184</a> |{" "}
+              5602 George St., Unit 4, Niagara Falls, Ontario, L2E 3E2 | <a href="tel:905-354-0184">905-354-0184</a> |{" "}
               <a href="mailto:info@viscaelectric.ca">info@viscaelectric.ca</a>
               <br />
               <a href="https://infused.agency" target="_blank">
