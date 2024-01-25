@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-import offer from "../../../public/img/offer.jpeg";
+import offer from "../../../public/img/before-after.jpeg";
 
 export default function Offer() {
   const ref = useRef(null);

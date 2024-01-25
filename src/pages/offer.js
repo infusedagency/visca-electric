@@ -1,6 +1,6 @@
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
-import offer from "../../public/img/offer.jpeg";
+import offer from "../../public/img/before-after.jpeg";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
