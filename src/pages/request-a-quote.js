@@ -28,12 +28,9 @@ export default function RequestAQuote() {
           <div className="container">
             <div className="flex flex-col lg:flex-row lg:gap-10">
               <div className="lg:w-2/3">
-                <h2>Get A Quote For Your Work</h2>
+                <h2>Contact us for a free estimate</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
-                <p>
-                  Use the form below to request a quote on the work you need done. Commercial, residential, industrial
-                  and home automation we can give you a proper budget and timeline for your project.
-                </p>
+                <p>Use the form below to request a quote. We are here to serve you.</p>
                 <form target="_blank" action="https://formsubmit.co/info@viscaelectric.ca" method="POST">
                   <div className="form-group">
                     <div className="form-row">

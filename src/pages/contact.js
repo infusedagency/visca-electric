@@ -1,5 +1,5 @@
 import InnerHero from "@/components/innerHero";
-import ContactSidebar from "@/components/contact-sidebar";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
@@ -26,58 +26,56 @@ export default function ContactUs() {
       >
         <section className="inner-content">
           <div className="container">
-            <div className="flex flex-col lg:flex-row lg:gap-10">
-              <div className="lg:w-2/3">
-                <h2>Questions, concerns or comments?</h2>
-                <hr className="w-20 border-1 border-red mt-2 mb-6" />
-                <p>Feel free to contact us regarding any question or comment you have.</p>
-                <form target="_blank" action="https://formsubmit.co/info@viscaelectric.ca" method="POST">
-                  <div className="form-group">
-                    <div className="form-row">
-                      <div className="col">
-                        <input
-                          type="text"
-                          name="name"
-                          className="form-control input w-full mt-2 mb-2 rounded-none"
-                          placeholder="Full Name"
-                          required
-                        />
-                      </div>
-                      <div className="col">
-                        <input
-                          type="email"
-                          name="email"
-                          className="form-control input w-full mt-2 rounded-none"
-                          placeholder="Email Address"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <input
-                      type="tel"
-                      name="phone"
-                      className="form-control input w-full mt-2 rounded-none"
-                      placeholder="Phone Number"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <textarea
-                      placeholder="Your Message"
-                      className="form-control input w-full mt-2 rounded-none pt-2 h-48"
-                      name="message"
-                      rows="10"
-                      required
-                    ></textarea>
-                  </div>
-                  <button type="submit" className="w-full mt-2 bg-red">
-                    Submit Form
-                  </button>
-                </form>
+            <div className="flex flex-col lg:flex-row">
+              <div className="lg:w-1/3">
+                <h3>Location & Contact Info</h3>
+                <p>
+                  5602 George St., Unit 4
+                  <br />
+                  Niagara Falls, Ontario
+                  <br />
+                  L2E 3E2
+                </p>
+                <br />
+                <p>
+                  <a href="tel:9053540184">905-354-0184</a>
+                  <br />
+                  <a href="mailto:info@viscaelectric.ca">info@viscaelectric.ca</a>
+                </p>
               </div>
               <div className="lg:w-1/3">
-                <ContactSidebar />
+                <h3>Hours</h3>
+                <p>
+                  <strong>Monday–Thursday:</strong> 7:00am – 4:00pm
+                  <br />
+                  <strong>Friday:</strong> 7:00am – 3:00pm
+                  <br />
+                  <strong>Saturday:</strong> Closed
+                  <br />
+                  <strong>Sunday:</strong> Closed
+                </p>
+                <p>Office closed at 3:30pm on Friday.</p>
+              </div>
+              <div className="lg:w-1/3">
+                <div className="border-solid border-2 border-red p-6 lg:p-10 mt-6 lg:mb-0">
+                  <h2 class="text-[24px] lg:text-[32px]">Request A Service Call</h2>
+                  <Link href="/request-service-call">
+                    <button className="mt-6">Request Now</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            <div className="flex flex-col lg:flex-row">
+              <div className="lg:w-full">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11650.347726315167!2d-79.087733!3d43.113195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x60bccb255272b8ee!2sSam+Visca+Electric!5e0!3m2!1sen!2sca!4v1497470643654"
+                  width="100%"
+                  height="450"
+                  frameborder="0"
+                  allowfullscreen="allowfullscreen"
+                ></iframe>
               </div>
             </div>
           </div>

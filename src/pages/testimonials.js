@@ -49,7 +49,7 @@ export default function Testimonials() {
                   </div>
                   <p className="text-grey opacity-50">
                     <em>
-                      I've been working with Visca Electric for almost 20 years and have used them both personally and
+                      I've been working with VISCA Electric for almost 20 years and have used them both personally and
                       professionally. They are knowledgeable, professional and very well organized. They've done small
                       electrical maintenance items at our office to full scale electrical installations on townhouse
                       developments for us. From big jobs to small, they really can do it all!
@@ -122,7 +122,7 @@ export default function Testimonials() {
                   </div>
                   <p className="text-grey opacity-50">
                     <em>
-                      We hired Visca Electric to install a home security system in our home and they did an amazing job.
+                      We hired VISCA electric to install a home security system in our home and they did an amazing job.
                       Sandro and his team were professional, polite and clean. Every time I set the alarm, I am
                       impressed by the installation and quality. I would recommend them to anyone!
                     </em>
@@ -173,11 +173,11 @@ export default function Testimonials() {
                   </div>
                   <p className="text-grey opacity-50">
                     <em>
-                      Visca Electric has been an invaluable partner to Blythwood Homes for over 20 years, and their
-                      service continues to exceed expectations. The crews at Visca Electric are not only skilled but
+                      VISCA electric has been an invaluable partner to Blythwood Homes for over 20 years, and their
+                      service continues to exceed expectations. The crews at VISCA electric are not only skilled but
                       also personable, making collaboration a pleasure. Their unwavering commitment to quality and
                       attention to detail shine through in every project, showcasing unmatched craftsmanship. I highly
-                      recommend Visca Electric for their reliability, professionalism, and the consistently exceptional
+                      recommend VISCA electric for their reliability, professionalism, and the consistently exceptional
                       results they deliver. A solid 5-star rating for a two-decade legacy of excellence!
                     </em>
                   </p>
@@ -225,8 +225,8 @@ export default function Testimonials() {
                   </div>
                   <p className="text-grey opacity-50">
                     <em>
-                      Chris and George from Sam Visca Electric did a fantastic job at upgrading my electrical panel and
-                      installing a recepticle outside. I highly recommend Sam Visca Electric for all your electrical
+                      Chris and George from Sam VISCA electric did a fantastic job at upgrading my electrical panel and
+                      installing a recepticle outside. I highly recommend Sam VISCA electric for all your electrical
                       needs. Great job, thank you!
                     </em>
                   </p>

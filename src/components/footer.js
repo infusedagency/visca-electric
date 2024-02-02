@@ -15,7 +15,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-1 justify-normal lg:justify-end">
             <p className="opacity-100">
-              &copy; 2024 Visca Electric |{" "}
+              &copy; 2024 VISCA electric |{" "}
               <a target="_blank" href="https://www.termsfeed.com/live/f736d78e-6b52-4a55-9166-96e055ab23d6">
                 Privacy Policy
               </a>

@@ -37,7 +37,7 @@ export default function SmartHomes() {
                 <h2>A Smart System to Automate Your Home</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
                 <p>
-                  Transform your home into a smart haven with VISCA electric’s Smart Home Services, where innovation
+                  Transform your home into a smart haven with VISCA electric’s Smart Home Division, where innovation
                   meets expertise. Discover the future of living today. We offer a comprehensive suite of smart home
                   solutions including lighting controls, Wi-Fi/networking, multiroom audio, home theatres, security
                   systems, and more. We understand that every home is unique. Our team will work closely with you to

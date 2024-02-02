@@ -72,13 +72,22 @@ export default function RequestServiceCall() {
                     />
                   </div>
                   <div className="form-group">
-                    <select id="priority" name="priority" className="form-control input w-full mt-2 pt-2 rounded-none">
+                    <select
+                      id="hear"
+                      name="how-did-your-hear-about-us"
+                      className="form-control input w-full mt-2 pt-2 rounded-none"
+                    >
                       <option value="" disabled selected>
-                        Select Priority...
+                        How did you hear about us?
                       </option>
-                      <option value="low">Low</option>
-                      <option value="high">High</option>
-                      <option value="emergency">Emergency</option>
+                      <option value="instagram">Instagram</option>
+                      <option value="facebook">Facebook</option>
+                      <option value="google">Google</option>
+                      <option value="past-customer-referral">Past Customer Referral</option>
+                      <option value="company-van">Company Van</option>
+                      <option value="esa">ESA</option>
+                      <option value="101.1-more-fm">101.1 More FM</option>
+                      <option value="other">Other</option>
                     </select>
                   </div>
                   <div className="form-group">
@@ -97,11 +106,18 @@ export default function RequestServiceCall() {
               </div>
               <div className="lg:w-1/3">
                 <div className="border-solid border-2 border-red p-6 lg:p-10 mb-6 lg:mb-0 mt-2 lg:mt-0">
-                  <h2 class="text-[24px] lg:text-[32px]">24-7 Emergency Support</h2>
+                  <h2 class="text-[24px] lg:text-[32px]">24-7 Emergency Services and Repairs</h2>
                   <p>
                     If you need emergency support,
                     <br />
                     please call <a href="tel:905-354-0184">905-354-0184</a>
+                  </p>
+                  <br />
+                  <br />
+                  <p>
+                    Electrical emergencies never wait, neither do we. No matter when, we will be there to serve you.
+                    Electrical issues can strike at any time, day, or night. When you're in the dark or facing a
+                    potentially dangerous electrical problem, you need a reliable electrician that you can count on.
                   </p>
                 </div>
               </div>

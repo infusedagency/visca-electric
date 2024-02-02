@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/img/logo.png";
+import logo from "../../public/img/hero-logo.png";
 
 export default function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -83,13 +83,13 @@ export default function Header() {
                       <summary>Services</summary>
                       <ul className="p-2 text-sm">
                         <li>
+                          <Link href="/smart-homes">Smart Homes</Link>
+                        </li>
+                        <li>
                           <Link href="/residential">Residential</Link>
                         </li>
                         <li>
                           <Link href="/commercial">Commercial</Link>
-                        </li>
-                        <li>
-                          <Link href="/smart-homes">Smart Homes</Link>
                         </li>
                       </ul>
                     </details>
@@ -104,6 +104,9 @@ export default function Header() {
                     <Link href="/testimonials">Testimonials</Link>
                   </li>
                   <li>
+                    <Link href="/offer">Current Specials</Link>
+                  </li>
+                  <li>
                     <details
                       className="dropdown"
                       onClick={(e) => {
@@ -113,7 +116,7 @@ export default function Header() {
                       <summary>Contact</summary>
                       <ul className="p-2 text-sm">
                         <li>
-                          <Link href="/contact">Contact Us</Link>
+                          <Link href="/contact">Contact Info</Link>
                         </li>
                         <li>
                           <Link href="/request-a-quote">Request A Quote</Link>
@@ -158,6 +161,11 @@ export default function Header() {
                     <summary>Services</summary>
                     <ul className="p-2 text-white w-56 rounded-none bg-black">
                       <li>
+                        <Link href="/smart-homes" className="hover:bg-red hover:text-white rounded-none">
+                          Smart Homes
+                        </Link>
+                      </li>
+                      <li>
                         <Link href="/residential" className="hover:bg-red hover:text-white rounded-none">
                           Residential
                         </Link>
@@ -165,11 +173,6 @@ export default function Header() {
                       <li>
                         <Link href="/commercial" className="hover:bg-red hover:text-white rounded-none">
                           Commercial
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/smart-homes" className="hover:bg-red hover:text-white rounded-none">
-                          Smart Homes
                         </Link>
                       </li>
                     </ul>
@@ -191,6 +194,11 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/offer" className="hover:bg-red">
+                    Current Specials
+                  </Link>
+                </li>
+                <li>
                   <details
                     className="dropdown"
                     onClick={(e) => {
@@ -198,10 +206,10 @@ export default function Header() {
                     }}
                   >
                     <summary>Contact</summary>
-                    <ul className="p-2 text-black w-56 rounded-none">
+                    <ul className="p-2 text-white w-56 rounded-none bg-black">
                       <li>
                         <Link href="/contact" className="hover:bg-red hover:text-white rounded-none">
-                          Contact Us
+                          Contact Info
                         </Link>
                       </li>
                       <li>

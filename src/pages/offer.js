@@ -40,6 +40,9 @@ export default function About() {
                   electricians will assess your needs and install your new breaker panel with quality and care. We will
                   deliver our services on time and as quoted. You can rely on us to communicate the panel upgrade
                   process every step of the way.
+                  <br />
+                  <br />
+                  Certain restrictions may apply.
                 </p>
               </div>
               <div className="lg:flex-1">

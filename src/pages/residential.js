@@ -1,8 +1,10 @@
+import Link from "next/link";
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
 import aboutImg from "../../public/img/residential-inner.jpeg";
 import newConsImg from "../../public/img/new-construction.jpeg";
 import elecImg from "../../public/img/electric-repairs.jpeg";
+import smartImg from "../../public/img/res-smart-homes.jpeg";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 
@@ -32,10 +34,10 @@ export default function Residential() {
             <div className="flex flex-col lg:flex-row lg:gap-10">
               <div className="lg:flex-1">
                 <p>
-                  Since our establishment in 1991, VISCA electric has been a trusted partner for homeowners, offering a
-                  comprehensive range of electrical services. With a focus on quality, reliability, and customer
-                  service, we strive to enhance the electrical systems of homes to meet the evolving needs of modern
-                  living.{" "}
+                  Since our establishment in 1991, VISCA electric has been a trusted licensed electrical contractor for
+                  homeowners, offering a comprehensive range of electrical services. With a focus on quality,
+                  reliability, and customer service, we strive to enhance the electrical systems of homes to meet the
+                  evolving needs of modern living.{" "}
                 </p>
               </div>
               <div className="lg:flex-1">
@@ -58,6 +60,23 @@ export default function Residential() {
               </div>
               <div className="lg:flex-1">
                 <Image className="mt-5 lg:mt-0 mb-5 lg:mb-0" src={newConsImg} alt="About" />
+              </div>
+            </div>
+            <div className="flex flex-col lg:flex-row lg:gap-10 items-center lg:pt-20">
+              <div className="lg:flex-1 mt-2 lg:mt-0">
+                <h2>Smart Home</h2>
+                <hr className="w-20 border-1 border-red mt-2 mb-6" />
+                <p>
+                  Modernize your home into a smart haven, with VISCA electric’s Smart Home Division where innovation
+                  meets expertise. We offer a comprehensive suite of smart home solutions including lighting controls,
+                  Wi-Fi/networking, multiroom audio, home theatres, security systems, and more.
+                </p>
+                <Link href="/smart-homes">
+                  <button className="mt-6">Learn More</button>
+                </Link>
+              </div>
+              <div className="lg:flex-1">
+                <Image className="mt-5 lg:mt-0 mb-5 lg:mb-0" src={smartImg} alt="smart homes" />
               </div>
             </div>
             <div className="flex flex-col lg:flex-row lg:gap-10 items-center lg:pt-20 lg:pb-20">

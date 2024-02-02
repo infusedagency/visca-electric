@@ -47,7 +47,7 @@ export default function Offer() {
               </div>
             </div>
             <br />
-            <h2>Why Visca Electric?</h2>
+            <h2>Why VISCA electric?</h2>
             <hr className="w-20 border-1 border-red mt-2 mb-6" />
             <p className="lg:w-3/4">
               Our mission is to provide high quality electrical services while prioritizing safety, quality, and

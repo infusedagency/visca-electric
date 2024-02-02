@@ -36,7 +36,7 @@ export default function Careers() {
                   our people and creating a workplace that values growth, innovation, and collaboration. Join us and be
                   a part of a team that's powering the future.
                 </p>
-                <h3 className="mt-5">Why Visca Electric?</h3>
+                <h3 className="mt-5">Why VISCA electric?</h3>
                 <ul className="ml-5 text-white opacity-30">
                   <li>
                     <strong>Legacy of Excellence:</strong> Established in 1991, VISCA electric has developed a
@@ -44,11 +44,11 @@ export default function Careers() {
                     of success.
                   </li>
                   <li>
-                    <strong>Diverse Projects:</strong>From residential homes to multi-storey low and high-rise
+                    <strong>Diverse Projects:</strong> From residential homes to multi-storey low and high-rise
                     buildings, our diverse portfolio ensures that every day is a new and exciting challenge.
                   </li>
                   <li>
-                    <strong>Collaborative Culture:</strong>Enjoy a collaborative work environment where your ideas are
+                    <strong>Collaborative Culture:</strong> Enjoy a collaborative work environment where your ideas are
                     valued, and teamwork is essential for success.
                   </li>
                 </ul>
@@ -113,7 +113,7 @@ export default function Careers() {
                     </ul>
                   </div>
                 </div>
-                <h3 className="mt-5">How to Apply:</h3>
+                <h3 className="mt-5">APPLY NOW</h3>
                 <p>
                   If you're ready to take the next step in your career and become part of the VISCA electric family,
                   please email us your resume and cover letter to{" "}

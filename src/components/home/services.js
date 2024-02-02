@@ -38,6 +38,37 @@ export default function Services() {
               ref={ref}
               animate={mainControls}
               initial="hidden"
+              transition={{ duration: 0.5, delay: 1 }}
+            >
+              <Image src={smart} className="mt-6 md:mt-0" alt="smart homes" />
+            </motion.div>
+          </div>
+          <div className="lg:w-2/3">
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
+              ref={ref}
+              animate={mainControls}
+              initial="hidden"
+              transition={{ duration: 0.5, delay: 1.3 }}
+            >
+              <h3 className="mt-4 md:mt-0">Smart Homes</h3>
+              <p>
+                Transform your home into a smart haven with VISCA electric’s Smart Home Division, where innovation meets
+                expertise. Discover the future of living today.
+              </p>
+              <Link href="/smart-homes">
+                <button className="mt-2 lg:mt-5">View Smart Homes</button>
+              </Link>
+            </motion.div>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row items-center lg:gap-24 lg:pt-14">
+          <div className="lg:w-1/3">
+            <motion.div
+              variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
+              ref={ref}
+              animate={mainControls}
+              initial="hidden"
               transition={{ duration: 0.5, delay: 0 }}
             >
               <Image src={res} alt="residential" />
@@ -53,8 +84,8 @@ export default function Services() {
             >
               <h3 className="mt-4 md:mt-0">Residential</h3>
               <p>
-                Since our establishment in 1991, VISCA Electric has been a trusted partner for homeowners, offering a
-                comprehensive range of electrical services.
+                Since our establishment in 1991, VISCA electric has been a trusted licensed electrical contractor for
+                homeowners, offering a comprehensive range of electrical services.
               </p>
               <Link href="/residential">
                 <button className="mt-2 lg:mt-5">View Residential</button>
@@ -84,42 +115,11 @@ export default function Services() {
             >
               <h3 className="mt-4 md:mt-0">Commercial</h3>
               <p>
-                VISCA Electric is a leading provider of commercial electrical services, dedicated to powering businesses
+                VISCA electric is a leading provider of commercial electrical services, dedicated to powering businesses
                 with reliable, efficient, and innovative solutions.
               </p>
               <Link href="/commercial">
                 <button className="mt-2 lg:mt-5">View Commercial</button>
-              </Link>
-            </motion.div>
-          </div>
-        </div>
-        <div className="flex flex-col lg:flex-row items-center lg:gap-24 lg:pt-14">
-          <div className="lg:w-1/3">
-            <motion.div
-              variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
-              ref={ref}
-              animate={mainControls}
-              initial="hidden"
-              transition={{ duration: 0.5, delay: 1 }}
-            >
-              <Image src={smart} className="mt-6 md:mt-0" alt="smart homes" />
-            </motion.div>
-          </div>
-          <div className="lg:w-2/3">
-            <motion.div
-              variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
-              ref={ref}
-              animate={mainControls}
-              initial="hidden"
-              transition={{ duration: 0.5, delay: 1.3 }}
-            >
-              <h3 className="mt-4 md:mt-0">Smart Homes</h3>
-              <p>
-                Transform your home into a smart haven with VISCA Electric’s Smart Home Services, where innovation meets
-                expertise. Discover the future of living today.
-              </p>
-              <Link href="/smart-homes">
-                <button className="mt-2 lg:mt-5">View Smart Homes</button>
               </Link>
             </motion.div>
           </div>

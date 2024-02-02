@@ -153,12 +153,6 @@ export default function Portfolio() {
                 <Image src={portMultiRes6} className="mb-5" alt="portfolio multi residential 6" />
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row lg:gap-10 items-center mt-2 lg:mt-10 mb-2 lg:mb-0">
-              <div className="lg:flex-1">
-                <h2>Home &amp; Automation</h2>
-                <p>(Need content)</p>
-              </div>
-            </div>
           </div>
         </section>
       </motion.div>

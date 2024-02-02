@@ -108,37 +108,6 @@ export default function Commercial() {
                 <Image className="mt-5 lg:mt-0 mb-5 lg:mb-0" src={commTime} alt="timely completion" />
               </div>
             </div>
-            {/* emergency services */}
-            <div className="flex flex-col lg:flex-row lg:gap-10 lg:pt-10 mt-2 lg:mt-5 justify-items-stretch">
-              <div className="lg:flex-1">
-                <h2>24/7 Emergency Services and Repairs</h2>
-                <hr className="w-20 border-1 border-red mt-2 mb-6" />
-                <p>
-                  Electrical emergencies never wait, neither do we. No matter when, we will be there to serve you.
-                  Electrical issues can strike at any time, day, or night. When you're in the dark or facing a
-                  potentially dangerous electrical problem, you need a reliable electrician that you can count on.
-                </p>
-              </div>
-              <div className="lg:flex-1 mt-5 lg:mt-0">
-                <h3>Why Choose Our 24/7 Emergency Service:</h3>
-                <hr className="w-20 border-1 border-red mt-2 mb-6" />
-                <ul>
-                  <li>
-                    <strong>Rapid Response:</strong> We understand the urgency of electrical problems and will do our
-                    best to keep your home or business running smoothly. We will typically be able to get on site within
-                    1 to 3 hours for emergencies within the Niagara Region.
-                  </li>
-                  <li>
-                    <strong>Round-the-Clock Availability:</strong> We're here 24/7, 365 days a year, to respond to your
-                    electrical emergencies promptly.
-                  </li>
-                  <li>
-                    <strong>Experienced Emergency Team:</strong> Our skilled electricians are trained to handle a wide
-                    range of electrical issues. You can rely on us to keep your home or business up and running.
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </section>
       </motion.div>
