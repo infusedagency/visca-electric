@@ -1,5 +1,4 @@
 module.exports = {
-  siteUrl: "https://viscaelectric.ca/",
+  siteUrl: "http://localhost:3000",
   generateRobotsTxt: true, // (optional)
-  outDir: "./out",
 };
