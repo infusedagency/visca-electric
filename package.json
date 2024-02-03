@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "postbuild": "next-sitemap",
+    "start": "serve out",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
     "flowbite-react": "^0.7.2",
     "framer-motion": "^10.16.16",
     "next": "13",
+    "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-dom": "^18",
     "react-fontawesome": "^1.7.1",
