@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
@@ -16,6 +17,13 @@ export default function Careers() {
   }, [isInView]);
   return (
     <>
+      <Head>
+        <title>Careers | VISCA electric</title>
+        <meta
+          name="description"
+          content="Join the VISCA electric team and turn your passion for electrical work into a rewarding career! We're actively seeking talented individuals who share our commitment to growth, innovation, and collaboration."
+        ></meta>
+      </Head>
       <InnerHero title="Careers" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

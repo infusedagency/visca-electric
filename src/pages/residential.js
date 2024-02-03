@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
@@ -21,6 +22,13 @@ export default function Residential() {
   }, [isInView]);
   return (
     <>
+      <Head>
+        <title>Residential | VISCA electric</title>
+        <meta
+          name="description"
+          content="With a focus on quality, reliability, and customer service, we strive to enhance the electrical systems of homes to meet the evolving needs of modern living."
+        ></meta>
+      </Head>
       <InnerHero title="Residential" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

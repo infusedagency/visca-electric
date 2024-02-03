@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
 import aboutImg from "../../public/img/smart-inner.jpeg";
@@ -22,6 +23,13 @@ export default function SmartHomes() {
   }, [isInView]);
   return (
     <>
+    <Head>
+        <title>Smart Homes | VISCA electric</title>
+        <meta
+          name="description"
+          content="Transform your home into a smart haven with VISCA electric’s Smart Home Division, where innovation meets expertise."
+        ></meta>
+      </Head>
       <InnerHero title="Smart Homes" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

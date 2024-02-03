@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import ContactSidebar from "@/components/contact-sidebar";
 import { useEffect, useRef } from "react";
@@ -16,6 +17,13 @@ export default function RequestServiceCall() {
   }, [isInView]);
   return (
     <>
+      <Head>
+        <title>Request A Quote | VISCA electric</title>
+        <meta
+          name="description"
+          content="Contact VISCA electric today to request a service call. We're here to serve you."
+        ></meta>
+      </Head>
       <InnerHero title="Request A Service Call" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

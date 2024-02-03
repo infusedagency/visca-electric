@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +18,13 @@ export default function Testimonials() {
   }, [isInView]);
   return (
     <>
+    <Head>
+        <title>Testimonials | VISCA electric</title>
+        <meta
+          name="description"
+          content="Checkout client testimonials from VISCA electric today."
+        ></meta>
+      </Head>
       <InnerHero title="Testimonials" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

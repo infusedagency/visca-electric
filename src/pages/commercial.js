@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
 import aboutImg from "../../public/img/comm-inner.jpeg";
@@ -22,6 +23,13 @@ export default function Commercial() {
   }, [isInView]);
   return (
     <>
+      <Head>
+        <title>Commercial | VISCA electric</title>
+        <meta
+          name="description"
+          content="VISCA electric is a leading provider of commercial electrical services, dedicated to powering businesses with reliable, efficient, and innovative solutions."
+        ></meta>
+      </Head>
       <InnerHero title="Commercial" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

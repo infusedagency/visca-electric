@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
 import portComm1 from "../../public/img/port-comm-1.jpeg";
@@ -39,6 +40,13 @@ export default function Portfolio() {
   }, [isInView]);
   return (
     <>
+      <Head>
+        <title>Portfolio | VISCA electric </title>
+        <meta
+          name="description"
+          content="Check out the VISCA electric commercial, residential and multi-residential portfolio projects."
+        ></meta>
+      </Head>
       <InnerHero title="Portfolio" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

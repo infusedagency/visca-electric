@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import Image from "next/image";
 import offer from "../../public/img/before-after.jpeg";
@@ -17,6 +18,13 @@ export default function About() {
   }, [isInView]);
   return (
     <>
+      <Head>
+        <title>Current Specials | VISCA electric </title>
+        <meta
+          name="description"
+          content="We specialize in replacing old and problematic fuse panels with modern, safer, and more convenient breaker panels."
+        ></meta>
+      </Head>
       <InnerHero title="Panel Upgrade Special" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}

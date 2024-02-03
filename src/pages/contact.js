@@ -1,3 +1,4 @@
+import Head from "next/head";
 import InnerHero from "@/components/innerHero";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
@@ -16,6 +17,13 @@ export default function ContactUs() {
   }, [isInView]);
   return (
     <>
+      <Head>
+        <title>Contact Us | VISCA electric</title>
+        <meta
+          name="description"
+          content="Contact VISCA electric today for location info, contact info, hours and to request a service call."
+        ></meta>
+      </Head>
       <InnerHero title="Contact Us" />
       <motion.div
         variants={{ hidden: { opacity: 0, y: 35 }, visible: { opacity: 1, y: 0 } }}
