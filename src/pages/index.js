@@ -47,6 +47,7 @@ export default function Home() {
           content="Serving the Niagara Region since 1991, Sam Visca Electric provides electrical services to residential, commercial and industrial sectors."
         ></meta>
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
+        <meta name="google-site-verification" content="_wU7ex8ki_Ha95B8RtB-0rcvVV4SoaKKqr4OGFMhzB4" />
       </Head>
       <Hero />
       <Portfolio />
