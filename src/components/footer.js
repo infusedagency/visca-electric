@@ -10,8 +10,8 @@ export default function Footer() {
               <br />
               <a href="https://infused.agency" target="_blank">
                 Niagara Web Design
-              </a>
-              <p>by Infused Agency</p>
+              </a>{" "}
+              by Infused Agency
             </p>
           </div>
           <div className="flex flex-1 justify-normal lg:justify-end">

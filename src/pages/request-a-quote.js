@@ -3,8 +3,10 @@ import InnerHero from "@/components/innerHero";
 import ContactSidebar from "@/components/contact-sidebar";
 import { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function RequestAQuote() {
+  const [state, handleSubmit] = useForm("mjvnyzov");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -39,59 +41,27 @@ export default function RequestAQuote() {
                 <h2>Contact us for a free estimate</h2>
                 <hr className="w-20 border-1 border-red mt-2 mb-6" />
                 <p>Use the form below to request a quote. We are here to serve you.</p>
-                <form target="_blank" action="https://formsubmit.co/info@viscaelectric.ca" method="POST">
-                  <div className="form-group">
-                    <div className="form-row">
-                      <div className="col">
-                        <input
-                          type="text"
-                          name="name"
-                          className="form-control input w-full mt-2 mb-2 rounded-none"
-                          placeholder="Full Name"
-                          required
-                        />
-                      </div>
-                      <div className="col">
-                        <input
-                          type="email"
-                          name="email"
-                          className="form-control input w-full mt-2 rounded-none"
-                          placeholder="Email Address"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <input
-                      type="tel"
-                      name="phone"
-                      className="form-control input w-full mt-2 rounded-none"
-                      placeholder="Phone Number"
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <input
-                      type="text"
-                      name="company"
-                      className="form-control input w-full mt-2 rounded-none"
-                      placeholder="Company Name"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <textarea
-                      placeholder="Description of Work"
-                      className="form-control input w-full mt-2 rounded-none pt-2 h-48"
-                      name="message"
-                      rows="10"
-                      required
-                    ></textarea>
-                  </div>
-                  <button type="submit" className="w-full mt-2 bg-red">
+                <form onSubmit={handleSubmit}>
+                  <input id="name" type="text" name="name" placeholder="Full Name" required />
+                  <input id="email" type="email" name="email" placeholder="Email Address" required />
+                  <input id="phone" type="tel" name="phone" placeholder="Phone Number" required />
+                  <input id="company" type="text" name="company" placeholder="Company Name" />
+                  <textarea id="message" name="message" rows="10" placeholder="Description of Work" required />
+
+                  <ValidationError prefix="Name" field="name" errors={state.errors} />
+                  <ValidationError prefix="Email" field="email" errors={state.errors} />
+                  <ValidationError prefix="Phone" field="phone" errors={state.errors} />
+                  <ValidationError prefix="Message" field="message" errors={state.errors} />
+
+                  <button className="w-full mt-2 bg-red" type="submit" disabled={state.submitting}>
                     Submit Form
                   </button>
                 </form>
+                {state.succeeded ? (
+                  <h3 className="mt-10">Thank you! We'll be in contact with you as soon as possible.</h3>
+                ) : (
+                  ""
+                )}
               </div>
               <div className="lg:w-1/3">
                 <ContactSidebar />
