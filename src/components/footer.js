@@ -7,12 +7,37 @@ export default function Footer() {
             <p className="opacity-100">
               5602 George St., Unit 4, Niagara Falls, Ontario, L2E 3E2 | <a href="tel:905-354-0184">905-354-0184</a> |{" "}
               <a href="mailto:info@viscaelectric.ca">info@viscaelectric.ca</a>
-              <br />
-              <a href="https://infused.agency" target="_blank">
-                Niagara Web Design
-              </a>{" "}
-              by Infused Agency
             </p>
+            <p className="text-12">
+                  Website by Infused Agency
+                  <a href="https://infused.agency" target="_blank" title="Web Design St. Catharines">
+                    Web Design St. Catharines
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency" target="_blank" title="Web Design Grimsby">
+                    Web Design Grimsby
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency/beamsville-web-design" target="_blank" title="Web Design Beamsville">
+                    Web Design Beamsville
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency/web-design-welland" target="_blank" title="Web Design Welland">
+                    Web Design Welland
+                  </a>{" "}
+                  |{" "}
+                  <a href="https://infused.agency/fort-erie-web-design" target="_blank" title="Web Design Fort Erie">
+                    Web Design Fort Erie
+                  </a>{" "}
+                  |{" "}
+                  <a
+                    href="https://infused.agency/port-colborne-web-design"
+                    target="_blank"
+                    title="Web Design Port Colborne"
+                  >
+                    Web Design Port Colborne
+                  </a>
+                </p>
           </div>
           <div className="flex flex-1 justify-normal lg:justify-end">
             <p className="opacity-100">
