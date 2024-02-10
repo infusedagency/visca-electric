@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row">
           <div className="flex-1">
             <p className="infused">
-                  Website by Infused Agency
+                  Website by Infused Agency | {" "}
                   <a href="https://infused.agency" target="_blank" title="Web Design St. Catharines">
                     Web Design St. Catharines
                   </a>{" "}
