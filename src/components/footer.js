@@ -26,7 +26,7 @@ export default function Footer() {
                     Web Design St. Catharines
                   </a>{" "}
                   |{" "}
-                  <a href="https://infused.agency" target="_blank" title="Web Design Grimsby">
+                  <a href="https://infused.agency/grimsby-web-design" target="_blank" title="Web Design Grimsby">
                     Web Design Grimsby
                   </a>{" "}
                   |{" "}
