@@ -23,31 +23,7 @@ export default function Footer() {
             <p className="infused">
                   Website by Infused Agency | {" "}
                   <a href="https://infused.agency" target="_blank" title="Web Design St. Catharines">
-                    Web Design St. Catharines
-                  </a>{" "}
-                  |{" "}
-                  <a href="https://infused.agency/grimsby-web-design" target="_blank" title="Web Design Grimsby">
-                    Web Design Grimsby
-                  </a>{" "}
-                  |{" "}
-                  <a href="https://infused.agency/beamsville-web-design" target="_blank" title="Web Design Beamsville">
-                    Web Design Beamsville
-                  </a>{" "}
-                  |{" "}
-                  <a href="https://infused.agency/web-design-welland" target="_blank" title="Web Design Welland">
-                    Web Design Welland
-                  </a>{" "}
-                  |{" "}
-                  <a href="https://infused.agency/fort-erie-web-design" target="_blank" title="Web Design Fort Erie">
-                    Web Design Fort Erie
-                  </a>{" "}
-                  |{" "}
-                  <a
-                    href="https://infused.agency/port-colborne-web-design"
-                    target="_blank"
-                    title="Web Design Port Colborne"
-                  >
-                    Web Design Port Colborne
+                    Niagara Web Design
                   </a>
                 </p>
           </div>
