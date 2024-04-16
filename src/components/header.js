@@ -135,7 +135,7 @@ export default function Header() {
                 </ul>
               </div>
               <Link href="/">
-                <Image className="logo" src={logo} alt="visca electric" width="285" height="57" />
+                <Image className="logo mt-2 mb-2 ml-2 lg:ml-0" src={logo} alt="visca electric" width="285" height="57" />
               </Link>
             </div>
             {/* Desktop */}

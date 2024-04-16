@@ -23,7 +23,7 @@ export default function Portfolio() {
         ref={ref}
         animate={mainControls}
         initial="hidden"
-        transition={{ duration: 0.5, delay: 0 }}
+        transition={{ duration: 0.5 }}
       >
         <h2>Our Portfolio</h2>
         <hr className="mx-auto w-20 border-1 border-red mt-2" />
@@ -33,7 +33,7 @@ export default function Portfolio() {
         initial="hidden"
         ref={ref}
         animate={mainControls}
-        transition={{ duration: 0.5, delay: 0.3 }}
+        transition={{ duration: 0.5 }}
       >
         <p className="lg:w-2/3 mx-auto mt-8 mb-8">
           With over three decades of industry experience, VISCA electric (formerly Sam Visca Electric) has a deep
@@ -45,7 +45,7 @@ export default function Portfolio() {
         initial="hidden"
         ref={ref}
         animate={mainControls}
-        transition={{ duration: 0.5, delay: 0.6 }}
+        transition={{ duration: 0.5 }}
       >
         <Link href="/portfolio">
           <button>View Portfolio</button>
@@ -59,7 +59,7 @@ export default function Portfolio() {
             initial="hidden"
             ref={ref}
             animate={mainControls}
-            transition={{ duration: 0.5, delay: 0 }}
+            transition={{ duration: 0.5 }}
           >
             <Image className="w-full" src={port1} alt="image 1" />
           </motion.div>
@@ -70,7 +70,7 @@ export default function Portfolio() {
             initial="hidden"
             ref={ref}
             animate={mainControls}
-            transition={{ duration: 0.5, delay: 0.3 }}
+            transition={{ duration: 0.5 }}
           >
             <Image className="w-full" src={port2} alt="image 2" />
           </motion.div>

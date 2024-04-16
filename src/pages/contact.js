@@ -62,7 +62,7 @@ export default function ContactUs() {
                   <br />
                   <strong>Sunday:</strong> Closed
                 </p>
-                <p>Office closed at 3:30pm on Friday.</p>
+                <p>Office closed at 3:00pm on Friday.</p>
               </div>
               <div className="lg:w-1/3">
                 <div className="border-solid border-2 border-red p-6 lg:p-10 mt-6 lg:mb-0">

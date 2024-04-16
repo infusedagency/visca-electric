@@ -121,13 +121,18 @@ export default function Careers() {
                     </ul>
                   </div>
                 </div>
-                <h3 className="mt-5">APPLY NOW</h3>
-                <p>
-                  If you're ready to take the next step in your career and become part of the VISCA electric family,
-                  please email us your resume and cover letter to{" "}
-                  <a href="mailto:info@viscaelectric.ca">info@viscaelectric.ca</a>. Be sure to specify the position you
-                  are applying for in the subject line.
-                </p>
+                <br />
+                <br />
+                <div className="lg:flex-1 border-solid border-2 border-red p-6 lg:p-10 mt-2 lg:mt-0 mb-6 lg:mb-0">
+                  <h2 class="text-[24px] lg:text-[32px] font-normal">APPLY NOW</h2>
+                  <hr className="w-20 border-1 border-red mt-2 mb-6" />
+                  <p>
+                    If you're ready to take the next step in your career and become part of the VISCA electric family,
+                    please email us your resume and cover letter to{" "}
+                    <a href="mailto:info@viscaelectric.ca">info@viscaelectric.ca</a>. Be sure to specify the position
+                    you are applying for in the subject line.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
