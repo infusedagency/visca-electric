@@ -3,6 +3,7 @@ import Script from "next/script";
 import Header from "@/components/header";
 import { Montserrat, Source_Sans_3 } from "next/font/google";
 import Footer from "@/components/footer";
+import GoogleTagManager from "@/components/GoogleTagManager";
 
 export const montserrat = Montserrat({
   subsets: ["latin"],
@@ -53,6 +54,7 @@ export default function App({ Component, pageProps }) {
           font-family: ${sourceCodePro.style.fontFamily} !important;
         }
       `}</style>
+      <GoogleTagManager />
       <Header />
       <Component {...pageProps} />
       <Footer />
