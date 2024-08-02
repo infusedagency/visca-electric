@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row">
           <div className="flex-1">
             <p className="infused">
-              Website by <Link href="/infused-agency">Infused Agency</Link>
+              Website by <a target="_blank" href="https://infused.agency">Infused Agency</a>
             </p>
           <Image className="mt-5" src={logo} alt="accreditations" />
           </div>
